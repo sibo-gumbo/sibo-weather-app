@@ -3,37 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Sibo weather app</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Capetown</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 5.15km/h
-        </p>
-      </div>
-      <div>⛅12°c</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/sibo-gumbo" target="_blank"> Sibo Gumbo</a>,
-      is
-      <a href="https://github.com/sibo-gumbo/sibo-weather-app" target="_blank">
-        open-sourced on Github
-      </a>
-      and
-      <a href="https://sibolicious-weather-app.netlify.app/" target="_blank">
-        hosted on Netlify
-      </a>
-    </footer>
+    <div class="sibo-weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Capetown</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 5.15km/h
+          </p>
+        </div>
+        <div>⛅12°c</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/sibo-gumbo" target="_blank"> Sibo Gumbo</a>,
+        is
+        <a
+          href="https://github.com/sibo-gumbo/sibo-weather-app"
+          target="_blank"
+        >
+          open-sourced on Github
+        </a>
+        and
+        <a href="https://sibolicious-weather-app.netlify.app/" target="_blank">
+          hosted on Netlify
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
